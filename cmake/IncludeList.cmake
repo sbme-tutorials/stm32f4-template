@@ -1,4 +1,5 @@
 set(INCLUDE_LIST ${INCLUDE_LIST}
+        ${ARM_DIR}/arm-none-eabi/include
         ${PROJECT_PATH}/STM32-base/startup
         ${PROJECT_PATH}/STM32-base-STM32Cube/CMSIS/ARM/inc
         ${PROJECT_PATH}/STM32-base-STM32Cube/CMSIS/${SERIES_FOLDER}/inc
